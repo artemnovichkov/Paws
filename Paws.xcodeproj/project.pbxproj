@@ -14,6 +14,7 @@
 		06C2241B1AE294820014219C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C2241A1AE294820014219C /* Images.xcassets */; };
 		06C2241E1AE294820014219C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06C2241C1AE294820014219C /* LaunchScreen.xib */; };
 		06C2242A1AE294820014219C /* PawsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C224291AE294820014219C /* PawsTests.swift */; };
+		06C224371AE2979F0014219C /* CatsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C224361AE2979F0014219C /* CatsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		06C224281AE294820014219C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06C224291AE294820014219C /* PawsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawsTests.swift; sourceTree = "<group>"; };
 		06C224331AE2963C0014219C /* Paws-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Paws-Bridging-Header.h"; sourceTree = "<group>"; };
+		06C224361AE2979F0014219C /* CatsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatsTableViewController.swift; sourceTree = "<group>"; };
 		24FD3A6187068949B5608371 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3503857E03BEF3DF8042223E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D0641FA05E865A138D89E17B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				06C2241A1AE294820014219C /* Images.xcassets */,
 				06C2241C1AE294820014219C /* LaunchScreen.xib */,
 				06C224111AE294810014219C /* Supporting Files */,
+				06C224361AE2979F0014219C /* CatsTableViewController.swift */,
 			);
 			path = Paws;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06C224161AE294820014219C /* ViewController.swift in Sources */,
+				06C224371AE2979F0014219C /* CatsTableViewController.swift in Sources */,
 				06C224141AE294810014219C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
