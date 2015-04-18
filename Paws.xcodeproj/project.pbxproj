@@ -8,13 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		05517AED4CA18022E0F5AA54 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FD3A6187068949B5608371 /* libPods.a */; };
-		06C224141AE294810014219C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C224131AE294810014219C /* AppDelegate.swift */; };
-		06C224161AE294820014219C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C224151AE294820014219C /* ViewController.swift */; };
-		06C224191AE294820014219C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C224171AE294820014219C /* Main.storyboard */; };
-		06C2241B1AE294820014219C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C2241A1AE294820014219C /* Images.xcassets */; };
-		06C2241E1AE294820014219C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06C2241C1AE294820014219C /* LaunchScreen.xib */; };
-		06C2242A1AE294820014219C /* PawsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C224291AE294820014219C /* PawsTests.swift */; };
-		06C224371AE2979F0014219C /* CatsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C224361AE2979F0014219C /* CatsTableViewController.swift */; };
+		06C2243C1AE2ABE70014219C /* CatsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2243B1AE2ABE70014219C /* CatsTableViewController.swift */; };
+		06C224401AE2ABF20014219C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C2243D1AE2ABF20014219C /* Images.xcassets */; };
+		06C224411AE2ABF20014219C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06C2243E1AE2ABF20014219C /* LaunchScreen.xib */; };
+		06C224421AE2ABF20014219C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C2243F1AE2ABF20014219C /* Main.storyboard */; };
+		06C224451AE2ABFE0014219C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C224431AE2ABFE0014219C /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,17 +27,14 @@
 
 /* Begin PBXFileReference section */
 		06C2240E1AE294810014219C /* Paws.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paws.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		06C224121AE294810014219C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		06C224131AE294810014219C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		06C224151AE294820014219C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		06C224181AE294820014219C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		06C2241A1AE294820014219C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		06C2241D1AE294820014219C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		06C224231AE294820014219C /* PawsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PawsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		06C224281AE294820014219C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		06C224291AE294820014219C /* PawsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawsTests.swift; sourceTree = "<group>"; };
 		06C224331AE2963C0014219C /* Paws-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Paws-Bridging-Header.h"; sourceTree = "<group>"; };
-		06C224361AE2979F0014219C /* CatsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatsTableViewController.swift; sourceTree = "<group>"; };
+		06C2243B1AE2ABE70014219C /* CatsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CatsTableViewController.swift; path = Paws/Controllers/CatsTableViewController.swift; sourceTree = "<group>"; };
+		06C2243D1AE2ABF20014219C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Paws/Resources/Images.xcassets; sourceTree = "<group>"; };
+		06C2243E1AE2ABF20014219C /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = Paws/Resources/LaunchScreen.xib; sourceTree = "<group>"; };
+		06C2243F1AE2ABF20014219C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Paws/Resources/Main.storyboard; sourceTree = "<group>"; };
+		06C224431AE2ABFE0014219C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Paws/Application/AppDelegate.swift; sourceTree = "<group>"; };
+		06C224441AE2ABFE0014219C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Paws/Application/Info.plist; sourceTree = "<group>"; };
 		24FD3A6187068949B5608371 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3503857E03BEF3DF8042223E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D0641FA05E865A138D89E17B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -67,8 +62,9 @@
 		06C224051AE294810014219C = {
 			isa = PBXGroup;
 			children = (
-				06C224101AE294810014219C /* Paws */,
-				06C224261AE294820014219C /* PawsTests */,
+				06C2243A1AE2AB6B0014219C /* Controllers */,
+				06C224391AE2AB590014219C /* Resources */,
+				06C224381AE2AB460014219C /* Application */,
 				06C2240F1AE294810014219C /* Products */,
 				181C7F36693B382476BFBE42 /* Pods */,
 				9EA00F89B5BC2BC6D3D883C5 /* Frameworks */,
@@ -85,43 +81,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		06C224101AE294810014219C /* Paws */ = {
+		06C224381AE2AB460014219C /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				06C224131AE294810014219C /* AppDelegate.swift */,
-				06C224151AE294820014219C /* ViewController.swift */,
-				06C224171AE294820014219C /* Main.storyboard */,
-				06C2241A1AE294820014219C /* Images.xcassets */,
-				06C2241C1AE294820014219C /* LaunchScreen.xib */,
-				06C224111AE294810014219C /* Supporting Files */,
-				06C224361AE2979F0014219C /* CatsTableViewController.swift */,
+				06C224431AE2ABFE0014219C /* AppDelegate.swift */,
+				06C224441AE2ABFE0014219C /* Info.plist */,
 			);
-			path = Paws;
+			name = Application;
 			sourceTree = "<group>";
 		};
-		06C224111AE294810014219C /* Supporting Files */ = {
+		06C224391AE2AB590014219C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				06C224121AE294810014219C /* Info.plist */,
+				06C2243D1AE2ABF20014219C /* Images.xcassets */,
+				06C2243E1AE2ABF20014219C /* LaunchScreen.xib */,
+				06C2243F1AE2ABF20014219C /* Main.storyboard */,
 			);
-			name = "Supporting Files";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		06C224261AE294820014219C /* PawsTests */ = {
+		06C2243A1AE2AB6B0014219C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				06C224291AE294820014219C /* PawsTests.swift */,
-				06C224271AE294820014219C /* Supporting Files */,
+				06C2243B1AE2ABE70014219C /* CatsTableViewController.swift */,
 			);
-			path = PawsTests;
-			sourceTree = "<group>";
-		};
-		06C224271AE294820014219C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				06C224281AE294820014219C /* Info.plist */,
-			);
-			name = "Supporting Files";
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		181C7F36693B382476BFBE42 /* Pods */ = {
@@ -223,9 +207,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06C224191AE294820014219C /* Main.storyboard in Resources */,
-				06C2241E1AE294820014219C /* LaunchScreen.xib in Resources */,
-				06C2241B1AE294820014219C /* Images.xcassets in Resources */,
+				06C224421AE2ABF20014219C /* Main.storyboard in Resources */,
+				06C224411AE2ABF20014219C /* LaunchScreen.xib in Resources */,
+				06C224401AE2ABF20014219C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06C224161AE294820014219C /* ViewController.swift in Sources */,
-				06C224371AE2979F0014219C /* CatsTableViewController.swift in Sources */,
-				06C224141AE294810014219C /* AppDelegate.swift in Sources */,
+				06C224451AE2ABFE0014219C /* AppDelegate.swift in Sources */,
+				06C2243C1AE2ABE70014219C /* CatsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06C2242A1AE294820014219C /* PawsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,25 +281,6 @@
 			targetProxy = 06C224241AE294820014219C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		06C224171AE294820014219C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				06C224181AE294820014219C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		06C2241C1AE294820014219C /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				06C2241D1AE294820014219C /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		06C2242B1AE294820014219C /* Debug */ = {
@@ -409,7 +372,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = Paws/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Paws/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Paws-Bridging-Header.h";
@@ -423,7 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = Paws/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Paws/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Paws-Bridging-Header.h";
