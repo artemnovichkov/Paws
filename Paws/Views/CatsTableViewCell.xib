@@ -45,11 +45,20 @@
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Paw" translatesAutoresizingMaskIntoConstraints="NO" id="ObU-GH-ORp">
+                        <rect key="frame" x="110" y="110" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="hq2-UO-hOk"/>
+                            <constraint firstAttribute="width" constant="100" id="twW-81-Eyj"/>
+                        </constraints>
+                    </imageView>
                 </subviews>
                 <constraints>
+                    <constraint firstAttribute="centerX" secondItem="ObU-GH-ORp" secondAttribute="centerX" id="1bd-Ly-Abd"/>
                     <constraint firstAttribute="trailing" secondItem="Mrf-6r-lC8" secondAttribute="trailing" constant="25" id="DQo-1w-lPO"/>
                     <constraint firstAttribute="bottom" secondItem="geZ-p5-TRm" secondAttribute="bottom" constant="11" id="DU9-ri-C9N"/>
                     <constraint firstAttribute="trailing" secondItem="2is-wg-WvC" secondAttribute="trailing" constant="15" id="Lx3-wR-HUe"/>
+                    <constraint firstItem="ObU-GH-ORp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="110" id="Ofm-mR-laO"/>
                     <constraint firstAttribute="centerX" secondItem="2is-wg-WvC" secondAttribute="centerX" id="P0l-YQ-vjg"/>
                     <constraint firstItem="5g9-Ms-lXl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="289" id="P4g-iZ-jL7"/>
                     <constraint firstItem="2is-wg-WvC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="c4t-Nh-0T3"/>
@@ -63,8 +72,12 @@
                 <outlet property="catCreditLabel" destination="5g9-Ms-lXl" id="TEH-AZ-xk7"/>
                 <outlet property="catImageView" destination="2is-wg-WvC" id="Su3-JY-xwd"/>
                 <outlet property="catNameLabel" destination="geZ-p5-TRm" id="AwG-GQ-q8x"/>
+                <outlet property="catPawIcon" destination="ObU-GH-ORp" id="qcL-fA-xJe"/>
                 <outlet property="catVotesLabel" destination="Mrf-6r-lC8" id="bZT-ax-8ox"/>
             </connections>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="Paw" width="100" height="100"/>
+    </resources>
 </document>
