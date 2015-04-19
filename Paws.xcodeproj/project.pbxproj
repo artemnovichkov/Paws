@@ -13,6 +13,8 @@
 		06C224411AE2ABF20014219C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06C2243E1AE2ABF20014219C /* LaunchScreen.xib */; };
 		06C224421AE2ABF20014219C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C2243F1AE2ABF20014219C /* Main.storyboard */; };
 		06C224451AE2ABFE0014219C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C224431AE2ABFE0014219C /* AppDelegate.swift */; };
+		06C224501AE2AE190014219C /* CatsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2244E1AE2AE190014219C /* CatsTableViewCell.swift */; };
+		06C224511AE2AE190014219C /* CatsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06C2244F1AE2AE190014219C /* CatsTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 		06C2243F1AE2ABF20014219C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Paws/Resources/Main.storyboard; sourceTree = "<group>"; };
 		06C224431AE2ABFE0014219C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Paws/Application/AppDelegate.swift; sourceTree = "<group>"; };
 		06C224441AE2ABFE0014219C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Paws/Application/Info.plist; sourceTree = "<group>"; };
+		06C2244E1AE2AE190014219C /* CatsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CatsTableViewCell.swift; path = Paws/Views/CatsTableViewCell.swift; sourceTree = "<group>"; };
+		06C2244F1AE2AE190014219C /* CatsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CatsTableViewCell.xib; path = Paws/Views/CatsTableViewCell.xib; sourceTree = "<group>"; };
 		24FD3A6187068949B5608371 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3503857E03BEF3DF8042223E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D0641FA05E865A138D89E17B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,6 +66,7 @@
 		06C224051AE294810014219C = {
 			isa = PBXGroup;
 			children = (
+				06C224491AE2ACB60014219C /* Views */,
 				06C2243A1AE2AB6B0014219C /* Controllers */,
 				06C224391AE2AB590014219C /* Resources */,
 				06C224381AE2AB460014219C /* Application */,
@@ -106,6 +111,15 @@
 				06C2243B1AE2ABE70014219C /* CatsTableViewController.swift */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		06C224491AE2ACB60014219C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				06C2244E1AE2AE190014219C /* CatsTableViewCell.swift */,
+				06C2244F1AE2AE190014219C /* CatsTableViewCell.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		181C7F36693B382476BFBE42 /* Pods */ = {
@@ -207,6 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06C224511AE2AE190014219C /* CatsTableViewCell.xib in Resources */,
 				06C224421AE2ABF20014219C /* Main.storyboard in Resources */,
 				06C224411AE2ABF20014219C /* LaunchScreen.xib in Resources */,
 				06C224401AE2ABF20014219C /* Images.xcassets in Resources */,
@@ -260,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06C224501AE2AE190014219C /* CatsTableViewCell.swift in Sources */,
 				06C224451AE2ABFE0014219C /* AppDelegate.swift in Sources */,
 				06C2243C1AE2ABE70014219C /* CatsTableViewController.swift in Sources */,
 			);
